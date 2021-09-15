@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/buscaCep.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Consulta CEP</title>
+</head>
+<body>
+    <div class="formulario">
+        <div class="titulo">Consulta CEP</div><br>
+        <form action="">
+            <div class="campo">
+                <label for="cep">CEP</label><br>
+                <input id="cep" type="text" maxlength="9" onblur="pesquisaCep(this.value);" placeholder="Digite um CEP"><br>
+            </div>
+            <div class="campo">
+                <label for="cidade">Cidade</label><br>
+                <input type="text" id="cidade"><br>
+            </div>
+            <div class="campo">
+                <label for="estado">Estado</label><br>
+                <input type="text" id="estado"><br>
+            </div>
+            <div class="campo">
+                <label for="logradouro">Logradouro</label><br>
+                <input type="text" id="logradouro"><br>
+            </div>
+        </form>    
+    </div>
+</body>
+</html>
